@@ -1,6 +1,7 @@
 version: "3.3"
 
 services:
-    demo:
+    containers_demo:
+        container_name: containers_demo 
         build:
             dockerfile: ./Dockerfile.ruby
