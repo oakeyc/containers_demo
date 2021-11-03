@@ -1,7 +1,12 @@
 version: "3.3"
 
 services:
-    containers_demo:
-        container_name: containers_demo 
+    containers_demo_ruby:
+        container_name: ruby-c
         build:
             dockerfile: ./Dockerfile.ruby
+        # entrypoint: ./entrypoint.sh
+    containers_demo_ubu:
+        container_name: ubuntu-c
+        build:
+            dockerfile: ./Dockerfile.ubuntu
