@@ -1,2 +1,3 @@
 from ruby
-COPY . .
+
+#COPY . .
